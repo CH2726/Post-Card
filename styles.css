@@ -14,6 +14,8 @@ body {background: #343434;
 }
 .header {
  overflow: hidden;
+ height: 20%;
+ align-items: auto;
 }
 .h1 {
     align: Left;
@@ -22,15 +24,21 @@ body {background: #343434;
     float: right;
     max-width: 60px;
 }
-.body-left {
+.body {
+    height: 50%;
     position: relative;
+}
+.body-left {
     float: left;
+    width: 50%;
 }
-.body-right {position: relative;
+.body-right {
     float: right;
+    width: 50%;
 }
-.footer {position: relative;
-}
-.button {
-    align: center;
+.footer {
+    position: relative;
+    height: 30%;
+    width: 100%;
+    float: center;
 }
